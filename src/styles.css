@@ -1,0 +1,16 @@
+.table {
+  /* display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between; */
+}
+
+.total-grid {
+  display: grid;
+  grid-template-columns: auto 100px;
+  grid-gap: 10px;
+}
+
+.table > div {
+  display: flex;
+  justify-content: space-between;
+}
